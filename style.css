@@ -1,0 +1,46 @@
+*{
+    padding:0px;
+    margin:0px;
+    
+}
+
+.background-layer1{
+    background-color: beige;
+    padding:20px;
+    padding-left: 200px;
+    padding-right:200px;
+   
+}
+
+.background-layer2{
+    background-color: rgb(240, 178, 134);
+    text-align:center;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;;
+    bor
+   
+}
+
+#id1{
+    
+    padding:5px;
+}
+
+#submit{
+    padding:10px;
+    border-radius: 50%;
+    background-color: rgb(246, 213, 131);
+    margin: 50px;
+    font-size: 30px;
+
+}
+
+.Main-Content{
+    font-size: 25px;;
+}
+
+h1{
+    font-size: 50px;
+    text-decoration: underline;
+}

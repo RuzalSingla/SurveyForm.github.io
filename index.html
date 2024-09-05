@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>SURVEY FORM</title>
+    <LINK REL="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="background-layer1">
+        <div class="background-layer2">
+            <BR>
+            <div class="Header">
+                <img src="Screenshot 2024-09-05 223936.png" alt="RandomImage" height="70px">
+                <br><br><br><br>
+                <h1><big><b>SURVEY FORM</b></big></h1>
+                
+                <p id="id1"><b>Annual Survey Form For Employees</b></p>
+            </div>
+
+            <div class="Main-Content">
+                <br><br><hr>
+                <br>
+                <form action="/action.php">
+                    
+                    <b>Name: </b><input type="text" placeholder="Enter Your Name">
+                    <br>
+                    <br>
+                    <b>E-mail: </b><input type="email" placeholder="Enter Your Email">
+                    <br><br>
+                    <b>Post: </b><select name="Post" id="Post" >
+                        <option value="JUnior Frontend Developer">Junior Frontend Developer</option>
+                        <option value="Senior Frontend Developer">Senior Frontend Developer</option>
+                        <option value="JUnior Backend Developer">Junior Backend Developer</option>
+                        <option value="Senior Backend Developer">Senior Backend Developer</option>
+                        <option value="Full Stack Developer">Full Stack Developer</option>
+                        <option value="Human Resource">Human Resource</option>
+                        <option value="Manager">Manager</option>
+                        <option value="Other Staff">Other Staff</option>
+
+                    </select>
+                    <br><br>
+
+                    <b>Contact Info: </b><input type="number" value="Contact Number" name="Num">
+                    <br><br><hr><br><br>
+
+
+                    <b>Overall Rating: </b><input type="radio" value="Bad" name="Rating">Bad 
+                    <input type="radio" value="Average" name="Rating">Average
+                    <input type="radio" value="Good" name="Rating">Good
+                    <input type="radio" value="Excellent" name="Rating">Excellent
+
+
+                    <br><br><br>
+                    
+                    
+                    <b>Any Scope for Improvement: </b><input type="radio" value="No" name="Rating">No 
+                    <input type="radio" value="Yes" name="Rating">Yes
+                    <br><br><hr><br>
+
+                    
+
+                    <label for="add text">  
+                       <b> Review: </b>
+                    </label>
+                    <textarea name="message" rows="2" cols="30">
+                        
+                        </textarea>
+
+                    <br><br>
+
+                    <input id="submit" type="submit" value="submit">
+                    
+        
+
+                </form>
+               
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
